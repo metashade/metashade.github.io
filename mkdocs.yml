@@ -1,0 +1,20 @@
+site_name: Metashade
+site_description: Python EDSL for GPU shader code generation
+site_url: https://metashade.dev
+repo_url: https://github.com/metashade/metashade
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - content.code.copy
+    - navigation.tabs
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
