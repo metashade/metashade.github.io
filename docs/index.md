@@ -6,6 +6,7 @@ Currently, limited but useful subsets of HLSL and GLSL are supported, and more t
 
 To see Metashade in action, check out the glTF demo at https://github.com/metashade/metashade-glTFSample or the [tests](https://github.com/metashade/metashade/tree/main/tests) which are run by CI:
 [![GitHub Actions CI](https://github.com/metashade/metashade/actions/workflows/python-package.yml/badge.svg)](https://github.com/metashade/metashade/actions/workflows/python-package.yml)
+[![PyPI](https://img.shields.io/pypi/v/metashade)](https://pypi.org/project/metashade/)
 
 There's also a prototype [MaterialX](https://materialx.org/) integration that allows Metashade to generate MaterialX node implementations. See the [`metashade.mtlx` package](https://github.com/metashade/metashade/tree/main/metashade/mtlx) and the [mtlx tests](https://github.com/metashade/metashade/tree/main/tests/mtlx) for examples.
 
