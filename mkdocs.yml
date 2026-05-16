@@ -3,6 +3,10 @@ site_description: Python EDSL for GPU shader code generation
 site_url: https://metashade.dev
 repo_url: https://github.com/metashade/metashade
 
+nav:
+  - Home: index.md
+  - PyPI: https://pypi.org/project/metashade/
+
 theme:
   name: material
   palette:
